@@ -2,7 +2,7 @@ var video=document.getElementById("video");
 
 function on_cam_success(stream)
 {
-  video srcObject=stream;
+  video.srcObject=stream;
 }
 
 function on_cam_error(err)
